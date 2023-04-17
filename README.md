@@ -1,1 +1,1 @@
-# NLP-demo
+# Information Retrieval
