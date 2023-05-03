@@ -32,3 +32,8 @@ async def answer_endpoint(input_q: Question):
         "preidcted_q": faq["question"][best_answer[1]],
         "preidcted_ans": faq["reply"][best_answer[1]],
     }
+@app.get("/")
+async def root():
+    return {
+        "message": "this is get"
+    }
